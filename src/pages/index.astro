@@ -7,9 +7,25 @@ import Searchpart from '@/components/Searchpart.jsx'
   description="Astro starter theme"
   title="Astro starter theme"
 >
- <h1 class="text-center mb-[32px] block antialiased tracking-normal font-sans text-4xl font-semibold leading-tight text-inherit">Astro 3 + React / Shadcn</h1>
- <!-- <Button>Hello World</Button> -->
-<div class="mt-3">	
+
+<header class="header">
+ <h1 class="text-center block antialiased tracking-normal font-sans text-4xl font-semibold leading-tight text-inherit">Astro 3 + React / Shadcn</h1>
+</header>
+
+<div class="search-part">	
 	<Searchpart client:load>
-</div>	
+</div>
+
 </Layout>
+<style>
+.header {
+   background-color: #f5f5f5;
+   padding: 24px;
+   border-bottom: 1px solid #e5e5e5;
+}
+.search-part {
+   padding: 32px;
+   max-width: 960px;
+   margin: auto;
+}
+</style>

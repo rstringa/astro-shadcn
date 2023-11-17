@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import SearchPartCard from '@/components/SearchPartCard'
 // import { MagicMotion } from 'react-magic-motion'
 import {
   Select,
@@ -7,14 +8,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
+
 
 const Searchpart = () => {
 
@@ -137,20 +131,14 @@ const Searchpart = () => {
         <h1 className='scroll-m-20 text-2xl font-semibold tracking-tight'>{paisElegido}</h1>
         <h3 className='scroll-m-20 text-1xl font-semibold tracking-tight'>{ciudadElegida}</h3>
         {personas.map((persona, index) => (
-
-          <Card key={index} className='my-2'>
-            <CardHeader>
-              <CardTitle>{persona.nombre}</CardTitle>
-              {/* <CardDescription>{persona.nombre}</CardDescription> */}
-            </CardHeader>
-            <CardContent>
-              <p>Telefono: {persona.telefono}</p>
-              <p>Dirección: {persona.direccion}</p>
-            </CardContent>
-            {/* <CardFooter>
-              <p>Card Footer</p>
-              </CardFooter> */}
-          </Card>
+       
+          <SearchPartCard 
+          key={index} 
+          nombre={persona.nombre}
+          telefono={persona.telefono} 
+          direccion={persona.direccion}
+          
+          />
         ))}
    </>      
 )}
