@@ -1,0 +1,254 @@
+{
+  "asesores": [
+    {
+      "pais": "Argentina",
+      "ciudades": [
+        {
+          "nombre": "Buenos Aires",
+          "personas": [
+            {
+              "nombre": "Carlos Rodriguez",
+              "telefono": "123-456-7890",
+              "direccion": "Calle Florida, Buenos Aires"
+            },
+            {
+              "nombre": "Ana Martínez",
+              "telefono": "987-654-3210",
+              "direccion": "Avenida Corrientes, Buenos Aires"
+            }
+          ]
+        },
+        {
+          "nombre": "Córdoba",
+          "personas": [
+            {
+              "nombre": "Luis González",
+              "telefono": "555-555-5555",
+              "direccion": "Calle Obispo Trejo, Córdoba"
+            },
+            {
+              "nombre": "María López",
+              "telefono": "444-444-4444",
+              "direccion": "Avenida Vélez Sársfield, Córdoba"
+            }
+          ]
+        },
+        {
+          "nombre": "Rosario",
+          "personas": [
+            {
+              "nombre": "Pedro Fernández",
+              "telefono": "777-777-7777",
+              "direccion": "Calle San Martín, Rosario"
+            },
+            {
+              "nombre": "Laura Ramirez",
+              "telefono": "666-666-6666",
+              "direccion": "Avenida Pellegrini, Rosario"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pais": "Brasil",
+      "ciudades": [
+        {
+          "nombre": "Río de Janeiro",
+          "personas": [
+            {
+              "nombre": "Eduardo Silva",
+              "telefono": "111-111-1111",
+              "direccion": "Calle Copacabana, Río de Janeiro"
+            },
+            {
+              "nombre": "Camila Santos",
+              "telefono": "222-222-2222",
+              "direccion": "Avenida Ipanema, Río de Janeiro"
+            }
+          ]
+        },
+        {
+          "nombre": "São Paulo",
+          "personas": [
+            {
+              "nombre": "Ricardo Oliveira",
+              "telefono": "333-333-3333",
+              "direccion": "Calle Paulista, São Paulo"
+            },
+            {
+              "nombre": "Fernanda Costa",
+              "telefono": "444-444-4444",
+              "direccion": "Avenida Faria Lima, São Paulo"
+            }
+          ]
+        },
+        {
+          "nombre": "Brasilia",
+          "personas": [
+            {
+              "nombre": "Gabriel Pereira",
+              "telefono": "555-555-5555",
+              "direccion": "Calle dos Ministérios, Brasilia"
+            },
+            {
+              "nombre": "Isabel Oliveira",
+              "telefono": "666-666-6666",
+              "direccion": "Avenida W3 Norte, Brasilia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pais": "España",
+      "ciudades": [
+        {
+          "nombre": "Madrid",
+          "personas": [
+            {
+              "nombre": "Javier López",
+              "telefono": "777-777-7777",
+              "direccion": "Calle Gran Vía, Madrid"
+            },
+            {
+              "nombre": "Marta Sánchez",
+              "telefono": "888-888-8888",
+              "direccion": "Avenida Castellana, Madrid"
+            }
+          ]
+        },
+        {
+          "nombre": "Barcelona",
+          "personas": [
+            {
+              "nombre": "Antonio Martínez",
+              "telefono": "999-999-9999",
+              "direccion": "Calle Ramblas, Barcelona"
+            },
+            {
+              "nombre": "Elena García",
+              "telefono": "101-101-1010",
+              "direccion": "Avenida Diagonal, Barcelona"
+            }
+          ]
+        },
+        {
+          "nombre": "Sevilla",
+          "personas": [
+            {
+              "nombre": "Francisco Ruiz",
+              "telefono": "121-121-1212",
+              "direccion": "Calle Sierpes, Sevilla"
+            },
+            {
+              "nombre": "Isabel Martínez",
+              "telefono": "131-131-1313",
+              "direccion": "Avenida de la Constitución, Sevilla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pais": "Estados Unidos",
+      "ciudades": [
+        {
+          "nombre": "Nueva York",
+          "personas": [
+            {
+              "nombre": "John Smith",
+              "telefono": "141-141-1414",
+              "direccion": "Calle Broadway, Nueva York"
+            },
+            {
+              "nombre": "Emily Johnson",
+              "telefono": "151-151-1515",
+              "direccion": "Avenida Fifth, Nueva York"
+            }
+          ]
+        },
+        {
+          "nombre": "Los Ángeles",
+          "personas": [
+            {
+              "nombre": "Michael Davis",
+              "telefono": "161-161-1616",
+              "direccion": "Calle Hollywood, Los Ángeles"
+            },
+            {
+              "nombre": "Jessica Miller",
+              "telefono": "171-171-1717",
+              "direccion": "Avenida Wilshire, Los Ángeles"
+            }
+          ]
+        },
+        {
+          "nombre": "Chicago",
+          "personas": [
+            {
+              "nombre": "Christopher Brown",
+              "telefono": "181-181-1818",
+              "direccion": "Calle Michigan, Chicago"
+            },
+            {
+              "nombre": "Sophia Taylor",
+              "telefono": "191-191-1919",
+              "direccion": "Avenida Lake Shore, Chicago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pais": "Francia",
+      "ciudades": [
+        {
+          "nombre": "París",
+          "personas": [
+            {
+              "nombre": "Pierre Dupont",
+              "telefono": "202-202-2020",
+              "direccion": "Calle Champs-Élysées, París"
+            },
+            {
+              "nombre": "Claire Lefevre",
+              "telefono": "212-212-2121",
+              "direccion": "Avenida Montaigne, París"
+            }
+          ]
+        },
+        {
+          "nombre": "Marsella",
+          "personas": [
+            {
+              "nombre": "Lucas Martin",
+              "telefono": "222-222-2222",
+              "direccion": "Calle Vieux-Port, Marsella"
+            },
+            {
+              "nombre": "Sophie Leroy",
+              "telefono": "232-232-2323",
+              "direccion": "Avenida Prado, Marsella"
+            }
+          ]
+        },
+        {
+          "nombre": "Lyon",
+          "personas": [
+            {
+              "nombre": "Antoine Rousseau",
+              "telefono": "242-242-2424",
+              "direccion": "Calle Bellecour, Lyon"
+            },
+            {
+              "nombre": "Isabelle Leclerc",
+              "telefono": "252-252-2525",
+              "direccion": "Avenida des Terreaux, Lyon"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

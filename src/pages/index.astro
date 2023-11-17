@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layouts.astro'
+import Searchpart from '@/components/Searchpart.jsx'
+--- 
+
+<Layout
+  description="Astro starter theme"
+  title="Astro starter theme"
+>
+ <h1 class="text-center mb-[32px] block antialiased tracking-normal font-sans text-4xl font-semibold leading-tight text-inherit">Astro 3 + React / Shadcn</h1>
+ <!-- <Button>Hello World</Button> -->
+<div class="mt-3">	
+	<Searchpart client:load>
+</div>	
+</Layout>
