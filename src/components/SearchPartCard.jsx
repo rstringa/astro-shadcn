@@ -13,15 +13,15 @@ const SearchPartCard = ({ nombre, telefono, direccion }) => {
 
     return (
         <>
-            <Card className='my-2' >
-                <CardHeader className="flex-row justify-between pb-4">
-                    <CardTitle>{nombre}</CardTitle>
+            <Card className='my-4' >
+                <CardHeader className="flex-row justify-between pb-2">
+                    <CardTitle className='text-slate-600'>{nombre}</CardTitle>
                     <div> <SearchPartCardMenu /> </div>
                     {/* <CardDescription>{persona.nombre}</CardDescription> */}
                 </CardHeader>
                 <CardContent>
-                    <p>Telefono: {telefono}</p>
-                    <p>Dirección: {direccion}</p>
+                    <p><b>Telefono:</b> {telefono}</p>
+                    <p><b>Dirección:</b> {direccion}</p>
                 </CardContent>
                 {/* <CardFooter>
               <p>Card Footer</p>
